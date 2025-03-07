@@ -21,19 +21,40 @@ ul, ol {
         margin: 0;
 }
 
-.container {
-        max-width: 1158px;
-        width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0 auto;
-        
-}
-
 button {
         border: 0;
 }
 
+/* max-width: 1158px;
+width: 100%;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto; */
+
+.container {
+        min-width: 320px;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+
+}
+
+@media (min-width: 768px) {
+        .container {
+                min-width: 768px; 
+                padding-left: 16px;
+                padding-right: 16px;
+        }
+}
+ 
+@media (min-width: 1158px) {
+        .container {
+                min-width: 1158px;
+                padding-left: 15px;
+                padding-right: 15px;
+        }
+}
 
 
 /* header */
@@ -50,8 +71,9 @@ button {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        max-width: 1158px;
-        padding: 0 15px;
+        min-width: 320px;
+        height: 32px;
+        /* padding: 0 15px; */
 }
 
 .header-nav {
@@ -80,11 +102,41 @@ button {
         color: #2e2f42;
 }
 
+.button-burger-menu {
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        cursor: pointer;
+        line-height: 0;
+        fill: #2E2F42;
+        display: block;
+}
+
+@media screen and (min-width: 767px) {
+        .button-burger-menu {
+                display: none;
+        }
+}
+        
+
 .class-menu {
         display: flex;
         gap: 40px;
         align-items: center;
+        display: none;
         
+}
+
+@media (min-width: 768px) {
+        .class-menu {
+                display: flex;
+        }
+}
+
+@media (min-width: 1158px) {
+        .class-menu {
+                display: flex;
+        }
 }
 
 .class-menu-item {
@@ -128,10 +180,25 @@ button {
 }
 
 .header-contacts {
+        display: none;
+}
+
+@media (min-width:768px) {
+
+        .header-contacts {
+                font-style: normal;
+                display: flex;
+                align-items: center;
+        }
+}
+
+@media (min-width:1158px) {
+
+.header-contacts {
         font-style: normal;
         display: flex;
         align-items: center;
-        
+        }
 }
 
 .header-contacts-list {

@@ -304,7 +304,7 @@ button {
 }
 
 @media (min-width: 768px) {
-    .mobile-menu-container {
+    .mobile-menu-container.is-open {
         display: none;
         visibility: none;
         pointer-events: none;

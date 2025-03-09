@@ -303,6 +303,14 @@ button {
         transition-property: visibility, opacity;
 }
 
+@media (min-width: 768px) {
+    .mobile-menu-container {
+        display: none;
+        visibility: none;
+        pointer-events: none;
+    }
+}
+
 .mobile-menu-container.is-open {
     visibility: visible;
     opacity: 1;

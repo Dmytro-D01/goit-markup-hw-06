@@ -172,7 +172,7 @@ button {
 }
 
 @media (min-width: 768px) {
-    .class-menu { 
+    .class-menu {
         min-width: 768px;
         display: flex;
         gap: 40px;
@@ -252,10 +252,10 @@ button {
 @media (min-width: 768px) {
     .header-contacts-list {
         display: flex;
-            row-gap: 12px;
-            flex-direction: column;
-            margin-left: auto;
-        }
+        row-gap: 12px;
+        flex-direction: column;
+        margin-left: auto;
+    }
 }
 
 @media (min-width: 1158px) {
@@ -265,7 +265,7 @@ button {
         gap: 40px;
         margin-left: 0;
         flex-direction: row;
-         margin-left: auto;
+        margin-left: auto;
     }
 }
 
@@ -323,18 +323,18 @@ button {
 
 @media (min-width: 1158px) {
     .hero-section {
-            background-color: #2e2f42;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 188px 0;
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            max-width: 1440px;
-            margin: auto;
-        }
+        background-color: #2e2f42;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 188px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-width: 1440px;
+        margin: auto;
+    }
 }
 
 .container-hero {
@@ -367,17 +367,17 @@ button {
 
 @media (min-width: 1158px) {
     .hero-title {
-            font-weight: 700;
-            font-size: 56px;
-            line-height: 1.07;
-            letter-spacing: 0.02em;
-            text-align: center;
-            color: #fff;
-            max-width: 496px;
-            margin-bottom: 48px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+        max-width: 496px;
+        margin-bottom: 48px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .hero-button {
@@ -417,7 +417,7 @@ button {
         justify-content: center;
         align-items: center;
         padding: 120px 0;
-        }
+    }
 }
 
 .container-features {}
@@ -513,7 +513,7 @@ button {
         align-items: center;
         justify-content: center;
         margin-bottom: 8px;
-        }
+    }
 }
 
 .features-icons {
@@ -528,7 +528,7 @@ button {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-        color: #2e2f42;
+    color: #2e2f42;
     text-transform: capitalize;
     max-width: 500px;
     margin-bottom: 8px;
@@ -557,12 +557,12 @@ button {
 
 @media (min-width: 1158px) {
     .features-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    max-width: 400px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        max-width: 400px;
     }
 
 }
@@ -644,14 +644,14 @@ button {
 
 @media (min-width: 1158px) {
     .team-item {
-            min-width: 264px;
-            width: 100%;
-            margin: 0 auto;
-            border-radius: 0px 0px 4px 4px;
-            width: calc((100% - 3 * 24px) / 4);
-            background-color: #FFFFFF;
-            box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-        }
+        min-width: 264px;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 0px 0px 4px 4px;
+        width: calc((100% - 3 * 24px) / 4);
+        background-color: #FFFFFF;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    }
 }
 
 .team-item:first-child {
@@ -923,7 +923,7 @@ button {
     margin: 0 auto;
     padding: 0 16px;
     min-width: 320px;
-    
+
 }
 
 @media (min-width: 768px) {
@@ -1083,11 +1083,11 @@ button {
 }
 
 @media (min-width: 1158px) {
-.footer-subscribe-container {
-    margin-left: 80px;
-    width: 453px;
-    height: 100%;
-    background-color: #2e2f42;
+    .footer-subscribe-container {
+        margin-left: 80px;
+        width: 453px;
+        height: 100%;
+        background-color: #2e2f42;
     }
 }
 
@@ -1133,17 +1133,17 @@ button {
 
 @media (min-width: 1158px) {
     .footer-subscribe-email {
-            width: 264px;
-            height: 40px;
-            border: 1px solid #fff;
-            background-color: transparent;
-            font-size: 12px;
-            line-height: 2;
-            letter-spacing: 0.04em;
-            padding-left: 16px;
-            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
-            border-radius: 4px;
-            color: #fff;
+        width: 264px;
+        height: 40px;
+        border: 1px solid #fff;
+        background-color: transparent;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        padding-left: 16px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        color: #fff;
     }
 }
 

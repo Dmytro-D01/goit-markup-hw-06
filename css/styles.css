@@ -1272,6 +1272,7 @@ button {
         margin-left: 80px;
         height: 100%;
         background-color: #2e2f42;
+        margin-top: 0;
     }
 }
 
